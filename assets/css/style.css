@@ -32,12 +32,13 @@ body {
 
 .tooltip {
   width: 100px;
-  height: 50px;
+  height: 60px;
   padding: 2px;
   font: 12px sans-serif;
   text-align: center;
-  background: rgb(162, 200, 221);
-  border: 1px;
+  /* background: rgb(162, 200, 221); */
+  background: rgb(252, 239, 169); 
+  border: solid 2px rgb(155, 154, 154);
   border-radius: 10px;
  }
  
