@@ -1,5 +1,5 @@
 var svgWidth = 900;
-var svgHeight = 550;
+var svgHeight = 500;
 
 // create margin
 var margin = {
@@ -199,8 +199,8 @@ d3.csv("assets/data/data.csv")
         // append y axis
         var obesityLabel = chartGroup.append("text")
             .attr("transform", `rotate(-90)`)
-            .attr("x", 0 - (height / 1.5))
-            .attr("y", -25)
+            .attr("x", 0 - (height / 2))
+            .attr("y", -27)
             .text("Obesity (%)")
             .style("font-weight", "bold");
 
